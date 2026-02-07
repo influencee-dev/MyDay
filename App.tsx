@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Utensils, ShoppingCart, Dumbbell, Calendar, ChevronRight, CheckCircle2, Circle } from 'lucide-react';
-import { Day, ShoppingItem } from './types';
+import { ShoppingItem } from './types';
 import { DAYS, WORKOUT_PLAN, WEEK_1_DATA, WEEK_2_DATA } from './constants';
 
 const App: React.FC = () => {
